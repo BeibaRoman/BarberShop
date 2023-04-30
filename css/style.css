@@ -1,0 +1,174 @@
+:root {
+  --main-font: "Open sans", sans-serif;
+  --main-color: #ffffff;
+  --main-black-color: #303030;
+  --accent-color: #ff6c00;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.section-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 72px;
+  line-height: calc(85 / 72);
+  letter-spacing: 0.05em;
+}
+
+.top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  text-transform: uppercase;
+}
+
+/* ====================Header====================== */
+.header {
+  background-color: gray;
+}
+.header-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link,
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.1em;
+  color: var(--main-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+
+.header-button {
+  color: var(--main-color);
+}
+
+.header-button:hover,
+.header-button:focus {
+  color: var(--accent-color);
+}
+
+/* ====================Hero====================== */
+
+.hero {
+  background-color: rgb(196, 184, 184);
+}
+.hero-list {
+}
+.hero-soc-item {
+}
+.hero-soc-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  letter-spacing: 0.2em;
+
+  color: var(--main-black-color);
+}
+.hero-soc-link:hover {
+  color: var(--accent-color);
+}
+.hero-top-text {
+  color: rgba(157, 164, 189, 0.6);
+}
+.hero-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 72px;
+  line-height: calc(85 / 72);
+  letter-spacing: 0.05em;
+  color: var(--main-color);
+}
+.hero-bottom-text {
+  font-size: 18px;
+  line-height: calc(30 / 18);
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/* ====================Section-About====================== */
+.about {
+}
+.about-list {
+}
+
+.about-item {
+}
+.about-top-text {
+  color: var(--main-black-color);
+}
+.about-title {
+  color: var(--main-black-color);
+}
+.about-bottom-text {
+  font-size: 18px;
+  line-height: calc(30 / 18);
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.about-text {
+  font-size: 14px;
+  line-height: calc(26 / 14);
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.about-button {
+  color: var(--main-black-color);
+}
+
+/* ====================Section-price================== */
+
+.price {
+}
+.price-top-text {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.price-title {
+  color: var(--main-color);
+}
+
+.price-list {
+}
+.price-item {
+}
+
+.prices-item-text {
+  font-size: 18px;
+  line-height: calc(30 / 18);
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/* ====================Section-benefits================== */
