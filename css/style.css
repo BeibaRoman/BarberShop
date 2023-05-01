@@ -42,6 +42,20 @@ body {
   text-transform: uppercase;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* ====================Header====================== */
 .header {
   background-color: gray;
@@ -172,3 +186,169 @@ body {
 }
 
 /* ====================Section-benefits================== */
+
+.benefit {
+}
+.benefit-list {
+}
+
+.benefit-item span {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: calc(57 / 42);
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--main-black-color);
+}
+.benefit-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  text-align: center;
+  color: var(--main-black-color);
+}
+.benefit-top-text {
+  color: var(--main-black-color);
+}
+.benefit-title {
+  color: var(--main-black-color);
+}
+.benefit-bottom-text {
+  font-size: 18px;
+  line-height: calc(30 / 18);
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+/* ====================Section-barbers================== */
+
+.barbers {
+}
+.barbers-top-text {
+  color: var(--main-black-color);
+}
+.barbers-title {
+  color: var(--main-black-color);
+}
+.barbers-list {
+}
+
+.barbers-item {
+}
+.barbers-item-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(25 / 18);
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--main-black-color);
+}
+
+.barbers-item-text {
+  font-size: 14px;
+  line-height: calc(19 / 14);
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+.barbers-soc-list {
+}
+.barbers-soc-item {
+}
+.barbers-soc-link {
+}
+
+/* ====================Section-gallary================== */
+
+.gallary {
+}
+.gallary-top-text {
+  color: var(--main-black-color);
+}
+.gallary-list {
+}
+.gallary-item {
+}
+
+/* ====================Section-online================== */
+
+.online {
+}
+.online-title {
+  color: var(--main-color);
+}
+
+/* ====================Section-contacts================== */
+
+.contacts {
+}
+.contacts-title {
+  color: var(--main-color);
+}
+
+.contacts-address {
+  font-style: normal;
+}
+.contacts-address-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(30 / 18);
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+.contacts-list {
+}
+
+.contacts-item {
+}
+.contacts-link {
+  font-size: 18px;
+  line-height: calc(30 / 18);
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+.contacts-subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.contacts-schedule {
+  font-size: 18px;
+  line-height: calc(30 / 18);
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/* ====================Section-footer================== */
+
+.footer {
+}
+.footer-copy {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  letter-spacing: 0.2em;
+  color: #9da4bd;
+}
+.footer-list {
+}
+
+.footer-item {
+}
+.footer-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  letter-spacing: 0.2em;
+  color: var(--main-black-color);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
