@@ -253,18 +253,33 @@ body {
 /* ====================Section-price================== */
 
 .price {
+  background: #303030;
 }
 .price-top-text {
   color: rgba(157, 164, 189, 0.6);
+  margin-bottom: 20px;
 }
 
 .price-title {
   color: var(--main-color);
+  margin-bottom: 44px;
+}
+.prices-wraper {
+  display: flex;
+  justify-content: space-between;
 }
 
 .price-list {
+  padding: 30px 20px;
+  width: calc((100% - 30px) / 2);
 }
 .price-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.price-item:last-child {
+  margin-bottom: 0;
 }
 
 .prices-item-text {
@@ -274,11 +289,52 @@ body {
   color: #9da4bd;
 }
 
+.price-btn {
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  margin-top: 44px;
+}
+
+.price-btn:hover,
+.price-btn:focus {
+  color: var(--accent-color);
+}
+
 /* ====================Section-benefits================== */
 
-.benefit {
+/* .benefit {
+} */
+
+.benefit-container {
+  display: flex;
+  gap: 130px;
+  padding-left: 100px;
+}
+
+.benefit-content {
+  padding-top: 13px;
+  max-width: 500px;
 }
 .benefit-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 370px;
+}
+.benefit-item {
+  width: 170px;
+  height: 133px;
+  padding: 20px 24px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.benefit-item:nth-child(odd) {
+  margin-right: 30px;
+}
+
+.benefit-item:nth-child(even) {
+  margin-top: 30px;
 }
 
 .benefit-item span {
@@ -298,9 +354,11 @@ body {
 }
 .benefit-top-text {
   color: var(--main-black-color);
+  margin-bottom: 20px;
 }
 .benefit-title {
   color: var(--main-black-color);
+  margin-bottom: 20px;
 }
 .benefit-bottom-text {
   font-size: 18px;
@@ -313,17 +371,32 @@ body {
 
 .barbers {
 }
+
+.barbers-container {
+  outline: 1px solid red;
+}
+
 .barbers-top-text {
   color: var(--main-black-color);
+  margin-bottom: 20px;
 }
 .barbers-title {
   color: var(--main-black-color);
+  margin-bottom: 44px;
 }
 .barbers-list {
+  display: flex;
+  gap: 30px;
 }
 
 .barbers-item {
+  width: calc((100% - 60px) / 3);
 }
+
+.barbers-content {
+  padding-top: 30px;
+}
+
 .barbers-item-title {
   font-weight: 400;
   font-size: 18px;
@@ -332,6 +405,8 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--main-black-color);
+
+  margin-bottom: 8px;
 }
 
 .barbers-item-text {
@@ -340,13 +415,23 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+
+  margin-bottom: 30px;
 }
 
 .barbers-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 .barbers-soc-item {
 }
 .barbers-soc-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: block;
+  background-color: tomato;
 }
 
 /* ====================Section-gallary================== */
@@ -355,15 +440,25 @@ body {
 }
 .gallary-top-text {
   color: var(--main-black-color);
+  margin-bottom: 44px;
 }
 .gallary-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .gallary-item {
+  width: calc((100% - 90px) / 4);
 }
 
 /* ====================Section-online================== */
-
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+}
 .online {
+  width: calc(50% - 15px);
+  background: #303030;
 }
 .online-title {
   color: var(--main-color);
@@ -372,9 +467,13 @@ body {
 /* ====================Section-contacts================== */
 
 .contacts {
+  width: calc(50% - 15px);
+  background-color: #303030;
+  padding-left: 100px;
 }
 .contacts-title {
   color: var(--main-color);
+  margin-bottom: 40px;
 }
 
 .contacts-address-link {
@@ -383,13 +482,17 @@ body {
   line-height: calc(30 / 18);
   letter-spacing: 0.02em;
   color: #9da4bd;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .contacts-list {
+  margin-bottom: 70px;
+}
+.contacts-item + .contacts-item {
+  margin-top: 20px;
 }
 
-.contacts-item {
-}
 .contacts-link {
   font-size: 18px;
   line-height: calc(30 / 18);
@@ -402,6 +505,7 @@ body {
   line-height: calc(15 / 11);
   text-transform: uppercase;
   color: var(--main-color);
+  margin-bottom: 20px;
 }
 .contacts-schedule {
   font-size: 18px;
@@ -413,6 +517,12 @@ body {
 /* ====================Section-footer================== */
 
 .footer {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
 }
 .footer-copy {
   font-weight: 600;
@@ -422,6 +532,8 @@ body {
   color: #9da4bd;
 }
 .footer-list {
+  display: flex;
+  gap: 40px;
 }
 
 .footer-item {
